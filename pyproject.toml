@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "llm-tuning"
+version = "0.1.0"
+description = ""
+authors = ["AGMoller <andersgiovanni@gmail.com>"]
+readme = "README.md"
+packages = [{include = "llm_tuning"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.32.1"
+trl = "^0.6.0"
+peft = "^0.5.0"
+accelerate = "^0.22.0"
+datasets = "^2.14.4"
+bitsandbytes = "^0.41.1"
+wandb = "^0.15.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
